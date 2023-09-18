@@ -12,22 +12,28 @@ body {
 
 .navbar {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   list-style: none;
   margin: 10px;
   padding: 20px;
+  padding-right: 100%;
 }
 
+.navbar {
+  border: 2px solid black;
+  color: black;
+  padding: 20px;
+  text-decoration: none;
 
+}
 
 .selectednav {
 border: 5px solid black;
 padding: 20px;
 text-decoration: none;
-padding-left: 20px; padding-right: 20px;
-width: 80px;
-height: 40px;
+padding-right: 100%; padding-left: 20px;
 margin: auto;
 background-color: black;
 color: white;

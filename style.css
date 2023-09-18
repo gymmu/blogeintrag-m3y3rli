@@ -10,36 +10,6 @@ body {
   font-family: sans-serif;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  list-style: none;
-  margin: 10px;
-  padding: 20px;
-  padding-right: 100%;
-}
-
-.navbar {
-  border: 2px solid black;
-  color: black;
-  padding: 20px;
-  text-decoration: none;
-
-}
-
-.selectednav {
-border: 5px solid black;
-padding: 20px;
-text-decoration: none;
-padding-right: 100%; padding-left: 20px;
-margin: auto;
-background-color: black;
-color: white;
-}
-
-
 
 .home {
   text-align: center;
@@ -49,4 +19,28 @@ color: white;
 text-align: center;
 margin-top: 340px;
 color: darkgrey;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
 }
